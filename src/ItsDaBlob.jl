@@ -5,6 +5,17 @@ using Images
 using LinearAlgebra
 using Statistics
 
+export Blob, blob
+export perimeter, perimeterlength
+export ecd
+export curvature
+export splitblob, separate, multiseparate
+export scorer
+export commonarea
+export area
+export maskedimage, colorizedimage
+export filledarea, interiorregions
+
 """
 A Blob is a mask consisting of blocks of adjacent pixels meeting a threshold.
 Only those pixels immediately above, below, left or right are considered to
