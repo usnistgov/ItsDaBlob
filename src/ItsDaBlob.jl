@@ -1,4 +1,4 @@
-module da_blob
+module ItsDaBlob
 
 using FileIO
 using Images
@@ -443,4 +443,4 @@ function __offset(ci::CartesianIndices{N,R}, base::CartesianIndices{N,R}) where 
     return CartesianIndices{N,R}(tuple(rs...))
 end
 
-end # module da_blob
+end # module ItsDaBlob
