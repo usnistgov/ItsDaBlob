@@ -1,0 +1,15 @@
+name = "ItsDaBlob"
+uuid = "a65288cd-db63-4318-baa7-9a0f2d4e6f47"
+authors = ["Nicholas Ritchie <nritchie@duck-and-cover.com>"]
+version = "0.1.0"
+
+[deps]
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+[compat]
+FileIO = "1"
+Images = "0.26"
+Statistics = "1"
+
